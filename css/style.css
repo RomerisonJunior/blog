@@ -1,0 +1,41 @@
+*{
+    font-family: Macondo;
+    color: aliceblue;
+}
+
+body{
+    background-image:url("../img/background.jpg");
+    font-family: Macondo;
+}
+h2{
+    font-size: 8vh;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: rgba(87, 86, 86, 0.637);        
+}
+
+.btn-menu{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: macondo;
+    color: rgb(180, 180, 180);
+    
+}
+
+.btn-menu:hover{
+    background-color: aliceblue;
+    color: black;
+
+}
